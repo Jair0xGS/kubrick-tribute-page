@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container">
+        
+            <h1 id="titile">Survey For FreeCodeCamp</h1>
+            <p id="description">Short Explanation</p>
+        </div>
+        <div class="container">
+
+            <form action="" >
+                <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name">
+
+                </div>
+            </form>
+            <form id="survey-form"> 
+                <div class="form-group">
+                  <label for="name" id="name-label">Name</label>
+                  <input type="text" class="form-control" id="name"  placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="email" id="email-label">Email address</label>
+                  <input type="email" class="form-control" id="email"  placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="number" id="number-label">Number</label>
+                  <input type="number" class="form-control" id="number"  placeholder="Enter a number" min="10" max="100">
+                </div>
+                
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Example select</label>
+                  <select class="form-control" id="dropdown">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          First radio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Second radio
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                        <label class="form-check-label" for="gridRadios3">
+                          Third radio
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="col-auto my-1">
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox1"> Este es mi primer checkbox</label><br>
+                  <label><input type="checkbox" id="cbox2" value="first_checkbox2"> Este es mi primer checkbox</label><br>
+                  <label><input type="checkbox" id="cbox3" value="first_checkbox3"> Este es mi primer checkbox</label><br>
+                  <label><input type="checkbox" id="cbox4" value="first_checkbox4"> Este es mi primer checkbox</label><br>
+
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
